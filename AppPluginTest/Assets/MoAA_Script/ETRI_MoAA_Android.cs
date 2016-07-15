@@ -26,10 +26,6 @@ public class ETRI_MoAA_Android : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		/*if (ErrorParser.getInstance.type != "") {
-			Debug.Log ("ok");
-			error ();
-		}*/
 	}
 
 	public void Initialize(string _apiCode, string _market){

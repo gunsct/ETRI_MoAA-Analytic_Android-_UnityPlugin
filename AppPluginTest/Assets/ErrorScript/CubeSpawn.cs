@@ -7,8 +7,6 @@ public class CubeSpawn : MonoBehaviour {
 	public GameObject cube;
 	// Use this for initialization
 	void Start () {
-		//ErrorParser.getInstance.RegisterLog ();
-
 		StartCoroutine ("Spawn");
 	}
 	
@@ -20,15 +18,6 @@ public class CubeSpawn : MonoBehaviour {
 	IEnumerator Spawn(){
 		yield return new WaitForSeconds(2.0f);
 		Instantiate (cube, this.transform.position, Quaternion.identity);
-		//ETRI_MoAA.getInstance.error (ErrorParser.getInstance.type, ErrorParser.getInstance.stack, ErrorParser.getInstance.output);
-		/*try {
-			Instantiate (cube, this.transform.position, Quaternion.identity);
-		}
-		catch {
-			ETRI_MoAA.getInstance.error ();
-
-			//GameObject.Find("PluginTest").GetComponent<PluginTest>().myObj.Call ("error", ErrorParser.getInstance.type, ErrorParser.getInstance.stack, ErrorParser.getInstance.output + " - cube");
-		}*/
 
 		StartCoroutine ("Spawn");
 	}
