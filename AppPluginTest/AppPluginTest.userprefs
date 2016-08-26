@@ -1,12 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MoAA_Script\ETRI_MoAA_Android.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MoAA_Script\ErrorParser.cs">
     <Files>
+      <File FileName="Assets\MoAA_Script\ErrorParser.cs" Line="1" Column="1" />
       <File FileName="Assets\PluginTest.cs" Line="66" Column="2" />
       <File FileName="Assets\ErrorScript\CubeSpawn.cs" Line="20" Column="68" />
       <File FileName="Assets\MoAA_Script\ETRI_MoAA_Android.cs" Line="28" Column="18" />
       <File FileName="Assets\MoAA_Script\ETRI_MoAA.cs" Line="5" Column="23" NotebookId="1" />
-      <File FileName="Assets\MoAA_Script\ErrorParser.cs" Line="31" Column="37" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
